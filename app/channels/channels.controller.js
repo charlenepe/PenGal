@@ -5,6 +5,18 @@ angular.module('angularfireSlackApp')
     channelsCtrl.channels = channels;
     channelsCtrl.getDisplayName = Users.getDisplayName;
     channelsCtrl.getGravatar = Users.getGravatar;
+    channelsCtrl.newChannel = {
+    	name: ''
+    };
+
+	channelsCtrl.createChannel = function(){
+	  channelsCtrl.channels.$add(channelsCtrl.newChannel).then(function(){
+	    channelsCtrl.newChannel = {
+	      name: ''
+	    };
+	  });
+	};
+
     channelsCtrl.logout = function(){
     Auth.$unauth();
     $state.go('home');

@@ -16,7 +16,7 @@ authCtrl.login = function (){
 };
 
 authCtrl.register = function (){
-  Auth.$authWithPassword(authCtrl.user).then(function (auth){
+  Auth.$createUser(authCtrl.user).then(function (auth){
     $state.go('home');
   }, function (error){
     authCtrl.error = error;

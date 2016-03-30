@@ -1,3 +1,6 @@
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+
+
 body {
   padding: 0;
 }
@@ -13,6 +16,21 @@ body {
   margin-top:-10px;
 }
 
+
+.pengal{
+/*  font-family: Arial;*/
+  font-style: italic;
+  font-weight: 600;
+/*  font-family: Lobster !important;*/
+
+}
+
+.text{
+  font-weight: 300;
+  font-style: italic;
+/*  font-family: Lobster;*/
+
+}
 
 .main {
   position:absolute;

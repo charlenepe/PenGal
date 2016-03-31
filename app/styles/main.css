@@ -229,7 +229,9 @@ width:70%;
   bottom:0;
   padding:0 15px 15px 0;
   background:#fff;
-  width:79%;
+  width:80%;
+  overflow:hidden;
+  left:28%;
 }
 
 .message-pane .message-wrap {

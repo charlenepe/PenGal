@@ -3,7 +3,7 @@
 
 body {
   padding: 0;
-/*  background-color: #F5F5DC;*/
+  background-color: #F5F5DC;
 }
 
 .page-wrapper {
@@ -11,11 +11,12 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding:15px;
-  /*background-color: #F5F5DC !important;*/
+  background-color: #F5F5DC !important;
 }
 
 .page-wrapper .logo-img {
   margin-top:-10px;
+  background-color: #F5F5DC !important;
 }
 
 

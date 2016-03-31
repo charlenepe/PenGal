@@ -168,13 +168,22 @@ body {
   background: #99d04a;
 }
 
+/*
+.ng-binding{
+  left:145px;
+
+}
+*/
 .message-pane {
   display:inline-block;
   vertical-align: top;
   height:100%;
-  width:80%;
+  left:145px;
+/*  width:80%;*/
+/*position:fixed;*/
+top:30px;
   overflow-y:scroll;
-  padding-top:40px;
+/*  padding-top:40px;*/
 /*  padding:55px 15px 65px 15px;*/
 }
 
@@ -183,7 +192,9 @@ body {
   top:0;
   background:#fff;
   width:100%;
+  overflow:hidden;
   z-index:2;
+  left:145px;
 }
 
 .message-pane .header h1 {

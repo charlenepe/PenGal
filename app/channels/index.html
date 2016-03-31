@@ -7,17 +7,22 @@
 
 
 
-    <div class="slack-name">
+    <div class="slack-name hidden">
       <h2>PenGal</h2>
     </div>
-      
+      <br/>
+      <br/>
       <div class="spaceadj">
           <img class="user-pic" ng-src="{{ channelsCtrl.getGravatar(channelsCtrl.profile.$id) }}" />
-      <div class="user-info">
+          <br/>
+          <br/>
+      <div class="user-info" style="text-align:center">
         <div class="user-name">
           <span class="presence" ng-class="{online: channelsCtrl.profile.online}"></span>
           {{ channelsCtrl.profile.displayName }}
         </div>
+        <br/>
+
 
         <div class="options">
           <a ui-sref="profile">edit profile</a>
@@ -34,7 +39,7 @@
         </div>
 
         <div class="channel create">
-          <a ui-sref="channels.create">+ create channel</a>
+          <a ui-sref="channels.create">+ new buzz topic</a>
         </div>
 
 

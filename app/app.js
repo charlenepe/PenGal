@@ -104,7 +104,7 @@ angular
       return Messages.forChannel($stateParams.channelId).$loaded();
     },
     channelName: function($stateParams, channels){
-      return '#'+channels.$getRecord($stateParams.channelId).name;
+      return '<3 '+channels.$getRecord($stateParams.channelId).name;
     }
   }
 })

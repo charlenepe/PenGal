@@ -172,9 +172,9 @@ body {
   display:inline-block;
   vertical-align: top;
   height:100%;
-/*  width:80%;*/
+  width:80%;
   overflow-y:scroll;
-  padding-top:100px;
+  padding-top:40px;
 /*  padding:55px 15px 65px 15px;*/
 }
 

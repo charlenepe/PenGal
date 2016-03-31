@@ -134,6 +134,11 @@ body {
   width:44px;
   height:44px;
   border-radius:4px;
+  width:100%;
+/*  padding-left:0px;
+  margin-left:0px;*/
+/*  margin-left: auto;
+  margin-right:auto;*/
 }
 
 .sidebar .my-info .user-info {
@@ -142,6 +147,11 @@ body {
   vertical-align: top;
 }
 
+.profilename{
+  color:white;
+  font-weight:500;
+  font-family: Lobster;
+}
 .sidebar .my-info .user-info .user-name {
   color:#fff;
   font-size:16px;

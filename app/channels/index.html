@@ -13,15 +13,14 @@
       <br/>
       <br/>
       <div class="spaceadj">
-          <img class="user-pic" ng-src="{{ channelsCtrl.getGravatar(channelsCtrl.profile.$id) }}" />
+          <img class="user-pic large" ng-src="{{ channelsCtrl.getGravatar(channelsCtrl.profile.$id) }}" />
           <br/>
           <br/>
       <div class="user-info" style="text-align:center">
-        <div class="user-name">
+        <div class="user-name profilename">
           <span class="presence" ng-class="{online: channelsCtrl.profile.online}"></span>
           {{ channelsCtrl.profile.displayName }}
         </div>
-        <br/>
 
 
         <div class="options">

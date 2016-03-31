@@ -57,6 +57,7 @@ body {
   position:relative;
   overflow-y:scroll;
   padding-bottom:100px;
+  width:28%;
 }
 
 .sidebar .slack-name {
@@ -182,6 +183,9 @@ body {
 /*  width:80%;*/
 /*position:fixed;*/
 top:30px;
+left:28%;
+width:70%;
+/*width:27%;*/
   overflow-y:scroll;
 /*  padding-top:40px;*/
 /*  padding:55px 15px 65px 15px;*/
@@ -194,7 +198,8 @@ top:30px;
   width:100%;
   overflow:hidden;
   z-index:2;
-  left:40%;
+  left:28%;
+  background-color: #F5F5DC;
 }
 
 .message-pane .header h1 {

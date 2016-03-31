@@ -2,6 +2,11 @@
   <h1>{{ messagesCtrl.channelName }}</h1>
 </div>
 
+<br/>
+<br/>
+<br/>
+
+<!-- <div class="adj"> -->
 <div class="message-wrap" ng-repeat="message in messagesCtrl.messages">
   <img class="user-pic" ng-src="{{ channelsCtrl.getGravatar(message.uid) }}" />
   <div class="message-info">
@@ -14,6 +19,7 @@
     </div>
   </div>
 </div>
+<!-- </div> -->
 
 <form class="message-form" ng-submit="messagesCtrl.sendMessage()">
 

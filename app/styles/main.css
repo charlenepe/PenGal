@@ -50,7 +50,7 @@ body {
 
 .sidebar {
   display:inline-block;
-  width:19.5%;
+/*  width:5%;*/
   vertical-align: top;
   height:100%;
   background:#4d394b;
@@ -121,7 +121,7 @@ body {
   bottom:0;
   padding:15px;
   background:#3E313C;
-  width:19.5%;
+  width:50%;
 }
 
 .sidebar .my-info .user-pic {

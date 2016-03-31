@@ -1,12 +1,34 @@
 <div class="main">
   <div class="sidebar">
 
+<!--       <div class="my-info"> -->
+
+<!--     </div> -->
+
+
+
     <div class="slack-name">
       <h2>PenGal</h2>
     </div>
 
+      <div>
+          <img class="user-pic" ng-src="{{ channelsCtrl.getGravatar(channelsCtrl.profile.$id) }}" />
+      <div class="user-info">
+        <div class="user-name">
+          <span class="presence" ng-class="{online: channelsCtrl.profile.online}"></span>
+          {{ channelsCtrl.profile.displayName }}
+        </div>
+
+        <div class="options">
+          <a ui-sref="profile">edit profile</a>
+          /
+          <a href="#" ng-click="channelsCtrl.logout()">logout</a>
+        </div>
+      </div>
+      </div>
+
     <div class="channel-list">
-      <div class="list-head">Channels</div>
+      <div class="list-head">Issues</div>
         <div class="channel" ng-repeat="channel in channelsCtrl.channels">
         <a ui-sref="channels.messages({channelId: channel.$id})" ui-sref-active="selected"># {{ channel.name }}</a>
         </div>
@@ -16,7 +38,7 @@
         </div>
 
 
-<div class="list-head">Direct Messages</div>
+<div class="list-head">Messages</div>
 <div class="channel" ng-repeat="user in channelsCtrl.users">
   <a ng-if="user.$id !== channelsCtrl.profile.$id" ui-sref="channels.direct({uid: user.$id})" ui-sref-active="selected">
     <span class="presence" ng-class="{online: user.online}"></span>
@@ -26,7 +48,7 @@
 </div>
     </div>
 
-    <div class="my-info">
+<!--     <div class="my-info">
       <img class="user-pic" ng-src="{{ channelsCtrl.getGravatar(channelsCtrl.profile.$id) }}" />
       <div class="user-info">
         <div class="user-name">
@@ -40,7 +62,7 @@
           <a href="#" ng-click="channelsCtrl.logout()">logout</a>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 

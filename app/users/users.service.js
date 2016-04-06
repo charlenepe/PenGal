@@ -1,5 +1,5 @@
 
-angular.module('angularfireSlackApp')
+angular.module('pengalapp')
   .factory('Users', function($firebaseArray, $firebaseObject, FirebaseUrl){
     var usersRef = new Firebase(FirebaseUrl+'users');
     var connectedRef = new Firebase(FirebaseUrl+'.info/connected');

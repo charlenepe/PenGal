@@ -1,4 +1,4 @@
-angular.module('angularfireSlackApp')
+angular.module('pengalapp')
   .controller('ChannelsCtrl', function($state, Auth, Users, profile, channels){
     var channelsCtrl = this;
     channelsCtrl.profile = profile;
@@ -31,7 +31,7 @@ angular.module('angularfireSlackApp')
   });
 
 
- //  angular.module('angularfireSlackApp')
+ //  angular.module('pengalapp')
  //  .controller('ProfileCtrl', function($state, md5, auth, profile){
  //    var profileCtrl = this;
 

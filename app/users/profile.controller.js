@@ -1,4 +1,4 @@
-angular.module('angularfireSlackApp')
+angular.module('pengalapp')
   .controller('ProfileCtrl', function($state, md5, auth, profile){
     var profileCtrl = this;
 
